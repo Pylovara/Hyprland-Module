@@ -1,0 +1,54 @@
+
+todo liste 
+
+- heraus bekommen welches ai modell am besten auf low ram zu prompten 
+  ist und vollzugriff auf den pylovara ast bekommen kann.
+  Ai soll später Nodes - Nanos - Micros - Logic & Needless selbst 
+  definieren können und logisch mit module ast erstellen können.
+  Der User soll nur noch sagen müssen :
+  ,,brauch cpu zugriff" oder ,,brauch GPU zugriff" usw und die 
+  AI macht den Rest ...... 
+  daher brauch die Ai vollzugriff auf System und Pylovara Ast , mit
+  rücksprache und zustimmungs funktion inklusive zeigen was sie tut.
+
+- unordnung beseitigen , für v0.5.2 soll alles was noch unaufgeräumt
+  ist , sauber in die grundlogik fusionieren ....
+
+kommentar : 
+
+ollama hat sich als intransparent und komplett undurchsichtig erwiesen , deswegen wurde ollama in version 0.5.1 als finale version endgültig heraus genommen .
+die v0.5.1 wird separat als vereinfachte version angeboten aber wird aus dem RR raus genommen , da zwecklose versuche keine erfolge bringen und der endverbraucher
+nur vor weiteren sudo visudo und benutzergruppenzuweisungen konfrontiert wird .... 
+
+es ist zwar ein schöne ´gag wenn man local eine komplett unbrauchbare AI laufen lassen kann aber sie erfüllt keinerlei mehrwert und ähnelt einem ChatBot
+aller James von damals bei Knuddels .... daher wird auf so ein (Dünnschiss) verzichtet ..... stattdessen wird auf lange sich auf ggml gesetzt , was aber viel zeit in 
+anspruch nehmen wird alle daten inklusive den inhalt auf das pyloavar prinzip anzupassen . warscheins wird vorher der MCS implementiert , der grundsätzlich 
+c - c++ - rust - go - scala etc komplett auf die mülltonne skaliert .... sinnvoller ist es erstmal den anschlusspunkt zu finden und das zauberwort heißt Isas ...
+
+anmerkung :
+
+Es wäre das schlauste auf basis von C zu schauen woher er seine hexdezimal bezieht und auf grundlage dessen den MCS zu entwickeln um Binär über verknüpfungen
+und kreislaufmuster für fehlfrequenzen , die umsetzung der protein pakete um 20% zu steigern gegenüber c .........
+nachforschungen im asembler designe sind hier von nöten oder ich setze direkt auf _86_64 auf , da es die meist verbreiteste grundlage darstellt ....
+Schluss endlich kann ich somit direkt auf Risc-V umsatteln ohne dabei die chip architecturen aller hersteller zu umgehen ....
+
+Nötiges Arbeitswerzeug : 
+
+- Proteus
+- Isas
+- Quellcode C 
+
+
+
+#################################################################################################################################
+
+Nextstept v0.5.3 :
+
+Aufräumen der noch zu unpräzise ordner strukturen , einführung des neuen systems ..... Shell basierte Frameworks aufbauen die Multiple aufgaben Modular
+verarbeiten können ..... first step : Shell Framework ... warscheins mit neuer Sprache SubSystem im Subsystem 
+
+
+
+
+
+
